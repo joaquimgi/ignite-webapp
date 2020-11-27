@@ -3,10 +3,11 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 //Redux
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { loadDetail } from "../actions/detailAction";
 import { Link } from "react-router-dom";
 import { smallImage } from "../util";
+import { popUp } from "../animation";
 
 const Game = ({ name, released, image, id }) => {
   const stringPathId = id.toString();
@@ -18,7 +19,13 @@ const Game = ({ name, released, image, id }) => {
     dispatch(loadDetail(id));
   };
   return (
-    <StyledGame layoutId={stringPathId} onClick={loadDetailHandler}>
+    <StyledGame
+      layoutId={stringPathId}
+      onClick={loadDetailHandler}
+      variants={popUp}
+      initial="hidden"
+      animate="show"
+    >
       <Link to={`/game/${id}`}>
         <motion.h3 layoutId={`title ${stringPathId}`}>{name}</motion.h3>
         <p>{released}</p>
