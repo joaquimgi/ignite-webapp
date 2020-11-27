@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/ignite-webapp/static/js/main.437a1a16.chunk.js",
+    "main.js.map": "/ignite-webapp/static/js/main.437a1a16.chunk.js.map",
+    "runtime-main.js": "/ignite-webapp/static/js/runtime-main.1f1f772d.js",
+    "runtime-main.js.map": "/ignite-webapp/static/js/runtime-main.1f1f772d.js.map",
+    "static/css/2.f7571451.chunk.css": "/ignite-webapp/static/css/2.f7571451.chunk.css",
+    "static/js/2.9da5fc17.chunk.js": "/ignite-webapp/static/js/2.9da5fc17.chunk.js",
+    "static/js/2.9da5fc17.chunk.js.map": "/ignite-webapp/static/js/2.9da5fc17.chunk.js.map",
+    "static/js/3.2f96bef4.chunk.js": "/ignite-webapp/static/js/3.2f96bef4.chunk.js",
+    "static/js/3.2f96bef4.chunk.js.map": "/ignite-webapp/static/js/3.2f96bef4.chunk.js.map",
+    "index.html": "/ignite-webapp/index.html",
+    "static/css/2.f7571451.chunk.css.map": "/ignite-webapp/static/css/2.f7571451.chunk.css.map",
+    "static/js/2.9da5fc17.chunk.js.LICENSE.txt": "/ignite-webapp/static/js/2.9da5fc17.chunk.js.LICENSE.txt",
+    "static/media/apple.5757c37e.svg": "/ignite-webapp/static/media/apple.5757c37e.svg",
+    "static/media/gamepad.c9269ef5.svg": "/ignite-webapp/static/media/gamepad.c9269ef5.svg",
+    "static/media/logo.3670d117.svg": "/ignite-webapp/static/media/logo.3670d117.svg",
+    "static/media/nintendo.f579be04.svg": "/ignite-webapp/static/media/nintendo.f579be04.svg",
+    "static/media/playstation.18cc4b9c.svg": "/ignite-webapp/static/media/playstation.18cc4b9c.svg",
+    "static/media/steam.d7b8819f.svg": "/ignite-webapp/static/media/steam.d7b8819f.svg",
+    "static/media/xbox.3e7db735.svg": "/ignite-webapp/static/media/xbox.3e7db735.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f1f772d.js",
+    "static/css/2.f7571451.chunk.css",
+    "static/js/2.9da5fc17.chunk.js",
+    "static/js/main.437a1a16.chunk.js"
+  ]
+}
