@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 import { useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
-import { gameScreenshotURL } from "../api";
 import { smallImage } from "../util";
+
+import AwesomeSlider from "react-awesome-slider";
+import coreStyles from "react-awesome-slider/src/core/styles.scss";
+import animationStyles from "react-awesome-slider/src/styled/fold-out-animation/fold-out-animation.scss";
 
 //IMAGES
 import playstation from "../img/playstation.svg";
@@ -92,15 +95,20 @@ const GameDetail = ({ pathId }) => {
             <Description>
               <p>{game.description_raw}</p>
             </Description>
-            <div className="gallery">
-              {screen.results.map((screen) => (
-                <img
-                  src={smallImage(screen.image, 1280)}
-                  alt={screen.image}
-                  key={screen.id}
-                />
-              ))}
-            </div>
+            <Gallery>
+              <AwesomeSlider
+                animation="foldOutAnimation"
+                cssModule={[coreStyles, animationStyles]}
+              >
+                {screen.results.map((screen) => (
+                  <div
+                    data-src={smallImage(screen.image, 1280)}
+                    alt={screen.image}
+                    key={screen.id}
+                  />
+                ))}
+              </AwesomeSlider>
+            </Gallery>
           </Detail>
         </CardShadow>
       )}
@@ -174,6 +182,10 @@ const Media = styled(motion.div)`
 
 const Description = styled(motion.div)`
   margin: 5rem 0rem;
+`;
+
+const Gallery = styled(motion.div)`
+  margin-bottom: 2rem;
 `;
 
 export default GameDetail;

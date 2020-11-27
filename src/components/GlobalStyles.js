@@ -19,7 +19,8 @@ html{
 }
 body{
     font-family:'Montserrat', sans-serif;
-    width:100%
+    width:100%;
+    margin-bottom:5rem;
 }
 h2{
     font-family:'Abril Fatface', cursive;
