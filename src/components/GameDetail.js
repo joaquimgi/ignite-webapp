@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { gameScreenshotURL } from "../api";
 import { smallImage } from "../util";
 
-const GameDetail = () => {
+const GameDetail = ({ pathId }) => {
   const history = useHistory();
 
   const exiDetailHandler = (e) => {
@@ -20,10 +20,10 @@ const GameDetail = () => {
     <>
       {!isLoading && (
         <CardShadow className="shadow" onClick={exiDetailHandler}>
-          <Detail>
+          <Detail layoutId={pathId}>
             <Stats>
               <div className="rating">
-                <h3>{game.name}</h3>
+                <motion.h3 layoutId={`title ${pathId}`}>{game.name}</motion.h3>
                 <p>Rating : {game.rating}</p>
                 <Info>
                   <h3>Platforms</h3>
@@ -36,7 +36,8 @@ const GameDetail = () => {
               </div>
             </Stats>
             <Media>
-              <img
+              <motion.img
+                layoutId={`image ${pathId}`}
                 src={smallImage(game.background_image, 1280)}
                 alt={game.background_image}
               />
