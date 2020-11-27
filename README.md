@@ -2,9 +2,7 @@
 
 A coool Webapp compiling all upcoming and existing games, updating via API calls made with React JS, Styled Components, Framer Motion animation and Redux. This website was made following a course from Dev Ed but with some refactoring from me to remove redundant code and adding a slider wiht fancy animation.
 
-<a href="http://joaquimgi.github.io/ignite-webapp">
-![Demo](./public/GithubDemoGif.gif)
-</a>
+![Demo](GithubDemoGif.gif)
 
 ## Main tech used to complete this project
 
