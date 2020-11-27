@@ -1,9 +1,9 @@
-# Capture [Demo](http://joaquimgi.github.io/ignite-webapp)
+# Ignite [Demo](http://joaquimgi.github.io/ignite-webapp)
 
 A coool Webapp compiling all upcoming and existing games, updating via API calls made with React JS, Styled Components, Framer Motion animation and Redux. This website was made following a course from Dev Ed but with some refactoring from me to remove redundant code and adding a slider wiht fancy animation.
 
-<a href="https://joaquimgi.github.io/capture-webapp/">
-![](./public/GithubDemoGif.gif)
+<a href="http://joaquimgi.github.io/ignite-webapp">
+![Demo](./public/GithubDemoGif.gif)
 </a>
 
 ## Main tech used to complete this project
