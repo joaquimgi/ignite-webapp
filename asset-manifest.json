@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/ignite-webapp/static/js/main.f4be995c.chunk.js",
-    "main.js.map": "/ignite-webapp/static/js/main.f4be995c.chunk.js.map",
+    "main.js": "/ignite-webapp/static/js/main.9521bb42.chunk.js",
+    "main.js.map": "/ignite-webapp/static/js/main.9521bb42.chunk.js.map",
     "runtime-main.js": "/ignite-webapp/static/js/runtime-main.1f1f772d.js",
     "runtime-main.js.map": "/ignite-webapp/static/js/runtime-main.1f1f772d.js.map",
     "static/css/2.f7571451.chunk.css": "/ignite-webapp/static/css/2.f7571451.chunk.css",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.1f1f772d.js",
     "static/css/2.f7571451.chunk.css",
     "static/js/2.65746eec.chunk.js",
-    "static/js/main.f4be995c.chunk.js"
+    "static/js/main.9521bb42.chunk.js"
   ]
 }
