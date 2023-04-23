@@ -75,7 +75,7 @@ const GameDetail = ({ pathId }) => {
               <Info>
                 <h3>Platforms</h3>
                 <Platforms>
-                  {game.platforms.map((data) => (
+                  {game.platforms?.map((data) => (
                     <img
                       key={data.platform.id}
                       src={getPlatform(data.platform.name)}
@@ -100,7 +100,7 @@ const GameDetail = ({ pathId }) => {
                 animation="foldOutAnimation"
                 cssModule={[coreStyles, animationStyles]}
               >
-                {screen.results.map((screen) => (
+                {screen.results?.map((screen) => (
                   <div
                     data-src={smallImage(screen.image, 1280)}
                     alt={screen.image}
